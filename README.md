@@ -10,4 +10,4 @@ Over the next 100 days, you'll design 100 different user interface elements for 
 * []() #002 :heavy_check_mark:
 * []() #003 :heavy_check_mark:
 
-:point_right: [View on Twitter ] (https://twitter.com/alexduart)
+:point_right: [View on Twitter](https://twitter.com/alexduart)
