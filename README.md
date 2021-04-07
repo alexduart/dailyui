@@ -6,8 +6,8 @@ Over the next 100 days, you'll design 100 different user interface elements for 
 
 ## DailyUI Challenges
 
-* []() [#001](../tree/master/001) :heavy_check_mark:
-* []() [#002](../tree/master/002) :heavy_check_mark:
-* []() [#003](../tree/master/003) :heavy_check_mark:
+* []() [#001](../../tree/master/001) :heavy_check_mark:
+* []() [#002](../../tree/master/002) :heavy_check_mark:
+* []() [#003](../../tree/master/003) :heavy_check_mark:
 
 :point_right: [View on Twitter](https://twitter.com/alexduart)
