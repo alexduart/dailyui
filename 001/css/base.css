@@ -1,0 +1,145 @@
+body{
+	height: 100%;
+	font-family: Roboto;
+	padding: 0px;
+	margin: 0px;
+}
+* {
+	box-sizing: border-box;
+}
+.bg-image {
+	/* The image used */
+	background-image: url('../img/fundo.png');
+
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	filter: blur(8px);
+	-webkit-filter: blur(5px);
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.card{
+	width: 350px;
+	height: 430px;
+	background-color: #fff;
+	box-shadow: 0px 0px 25px #FEEAE9;
+}
+.card img{
+	margin: 10% auto;
+}
+.sup{
+	margin: 25px;
+	text-align: center;
+}
+.sup h1{
+	font-size: 24px;
+	color: #FF5B71;
+}
+.form{
+	text-align: left;
+	font-size: 16px;
+}
+.form button{
+	width: 100%;
+	height: 50px;
+	background-color: #FF5B71;
+	color: #fff;
+	border: 0px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.form-control {
+	border: 1px solid #e6e6e6;
+	border-radius: 0;
+	padding: 10px 15px;
+}
+
+.form-control::-moz-placeholder {
+	font-size: 0.9em;
+	font-weight: 300;
+	color: #aaa;
+}
+
+.form-control::-webkit-input-placeholder {
+	font-size: 0.9em;
+	font-weight: 300;
+	color: #aaa;
+}
+
+.form-control:-ms-input-placeholder {
+	font-size: 0.9em;
+	font-weight: 300;
+	color: #aaa;
+}
+
+.form-control:focus {
+	border-color: #796AEE;
+}
+
+.form-control-label {
+	color: #777;
+	font-weight: 300;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+input.input-material {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #eee;
+	padding: 10px 0;
+}
+
+input.input-material:focus {
+	border: 0px;
+}
+
+input.input-material ~ label {
+	color: #aaa;
+	position: absolute;
+	top: 14px;
+	left: 0;
+	cursor: text;
+	transition: all 0.2s;
+	font-weight: 300;
+}
+
+input.input-material ~ label.error {
+	color: #d9534f;
+	font-size: 0.75em;
+	position: absolute;
+	top: auto;
+	bottom: -30px;
+	left: 0;
+}
+
+input.input-material ~ label.active {
+	font-size: 0.8em;
+	top: -10px;
+	color: #796AEE;
+}
+
+.powered{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 12px;
+	color: #aaa;
+	font-style: italic;
+}
