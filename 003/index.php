@@ -28,7 +28,7 @@
 
 				<div class="grid-item">
 					<div class="imagem">
-						<img src="https://static-cdn.pixlr.com/images/mobile/mobile_app_one.png" alt="">
+						<img src="img/mobile_app_one.png" alt="">
 					</div>
 				</div>
 
