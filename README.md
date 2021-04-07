@@ -2,6 +2,6 @@
 
 <p>Desafio diário de UI Finalizados</p>
 
-* []() #001
-* []() #002
-* []() #003
+* []() #001 :heavy_check_mark:
+* []() #002 :heavy_check_mark:
+* []() #003 :heavy_check_mark:
