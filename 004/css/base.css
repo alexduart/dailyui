@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+body{
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #D6E2EE;
+}
+* {
+	box-sizing: border-box;
+}
+.grid-container-result{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 5px;
+}
+.grid-container-command{
+	display: grid;
+	grid-template-columns: 23.9% 23.9% 23.9% 23.9%;
+	grid-gap: 5px;
+}
+.grid-container-functions{
+	display: grid;
+	grid-template-columns: 15.3% 15.3% 15.3% 15.3% 15.3% 15.3%;
+	grid-gap: 5px;
+	margin-bottom: 10px;
+}
+.grid-container-functions2{
+	display: grid;
+	grid-template-columns: 23.9% 23.9% 49%;
+	grid-gap: 5px;
+	margin-bottom: 10px;
+}
+
+.disabled{
+	opacity: .5;
+}
+
+.functions{
+	border: 0px solid #000;
+	height: 25px;
+	text-align: center;
+	padding-top: 2px;
+	text-transform: uppercase;
+	color: #666;
+	border-radius: 5px;
+	font-size: 12px;
+	border-radius: 5px;
+	background: #EFEEEE;
+	box-shadow:  -6px -6px 26px 0 rgba(255, 255, 255, 0.5), 6px 6px 16px 0 rgba(217, 210, 200, .9);
+	border: 0px solid rgba(255, 255, 255, 0.20);
+}
+
+.command{
+	border: 0px solid #000;
+	height: 50px;
+	text-align: center;
+	padding-top: 12px;
+	background-color: #DE8F3C;
+	text-transform: uppercase;
+	color: #fff;
+	box-shadow: 0px 0px 5px #DE8F3C;
+	border-radius: 5px;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.card{
+	z-index: 9999;
+	padding: 25px;
+	display: table;
+	border: 0px solid #000;
+	background-color: #EFEEEE;
+	border-radius: 5px;
+	
+}
+.card-size{
+	width: 350px;
+	height: 500px;
+}
+
+.result{
+	display: block;
+	height: 80px;
+	text-align: right;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: #666;
+	border-radius: 5px;
+	background: #EFEEEE;
+	box-shadow:  -6px -6px 26px 0 rgba(255, 255, 255, 0.5), 6px 6px 16px 0 rgba(217, 210, 200, .9);
+	border: 0px solid rgba(255, 255, 255, 0.20);
+}
+.result .equation{
+	border: 0px solid #000;
+	display: block;
+	width: 100%;
+	font-size: 18px;
+}
+.result .aftermath{
+	border: 0px solid #000;
+	display: block;
+	width: 100%;
+	font-size: 32px;
+}
+
+.command{
+	height: 50px;
+	text-align: center;
+	padding-top: 12px;
+	text-transform: uppercase;
+	color: #666;
+	border-radius: 5px;
+	background: #EFEEEE;
+	box-shadow:  -6px -6px 26px 0 rgba(255, 255, 255, 0.5), 6px 6px 16px 0 rgba(217, 210, 200, .9);
+	border: 0px solid rgba(255, 255, 255, 0.20);
+}
+.command.numbers{
+	
+}
+
