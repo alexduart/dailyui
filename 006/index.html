@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DailyUI #006</title>
+	<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+	<div class="container">
+		<div class="card-size card">
+			<div class="grid-container">
+				<div class="grid-photo photo">
+					<img src="https://lh3.googleusercontent.com/proxy/cpB0RYst1gBFeij6G5N_Eauhw7g7ZZFt6AQUYvwuI5iAYXn2Qpux5WfwK6hAYXZUkap64NN3oNGkhi4EYm9puk3S_VCZvDtJ_yGjQFBcFyI_xmOr5a81BttroTztlrE" alt="">
+					<div class="grid-container-buttons">
+						<button class="btn btn-trocar">Change</button>
+						<button class="btn btn-excluir">Delete</button>
+					</div>
+				</div>
+				<div class="grid-item">
+					<form action="">
+						<div class="grid-container-form">
+							<div class="item-full">
+								<div class="form-group">
+									<input type="text" class="input-material" id="name">
+									<label class="label-material" for="name">Name</label>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="form-group">
+									<input type="text" class="input-material" id="mail">
+									<label class="label-material" for="mail">Email</label>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="form-group">
+									<input type="text" class="input-material" id="phone">
+									<label class="label-material" for="phone">Phone</label>
+								</div>
+							</div>
+							<div class="item-full">
+								<div class="form-group">
+									<textarea name="bio" id="bio" class="input-material" rows="5" spellcheck="false"></textarea>
+									<label class="label-material" for="name">Bio</label>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="form-group">
+									<label class="label-material" for="">Gender</label>
+									<br>
+									<input type="radio" name="gender"> Male
+									<input type="radio" name="gender"> Female
+									<input type="radio" name="gender" checked="checked"> Other
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="grid-buttons">
+				<div class="grid-item"></div>
+				<div class="grid-item"><button class="btn btn-cancel">Cancel</button></div>
+				<div class="grid-item"><button class="btn btn-save">Save</button></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://www.datamobile.com.br/ecospa/js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(e) {
+			$('input.input-material, textarea.input-material').on('focus', function () {
+				$(this).siblings('.label-material').addClass('active');
+			});
+
+			$('input.input-material, textarea.input-material').on('blur', function () {
+				$(this).siblings('.label-material').removeClass('active');
+
+				if ($(this).val() !== '') {
+					$(this).siblings('.label-material').addClass('active');
+				} else {
+					$(this).siblings('.label-material').removeClass('active');
+				}
+			});
+		});
+	</script>
+</body>
+</html>
