@@ -11,5 +11,6 @@ Over the next 100 days, you'll design 100 different user interface elements for 
 * []() [#003](../../tree/master/003) :heavy_check_mark:
 * []() [#004](../../tree/master/004) :heavy_check_mark:
 * []() [#005](../../tree/master/005) :heavy_check_mark:
+* []() [#006](../../tree/master/006) :heavy_check_mark:
 
 :point_right: [View on Twitter](https://twitter.com/alexduart)

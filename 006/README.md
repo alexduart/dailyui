@@ -1,6 +1,6 @@
-# Daily UI #005
+# Daily UI #006
 
-Design an app icon. What best represents the brand or product? Or is it incredibly unique? Does it look great at a distance and does it stand out when put on your home screen alongside other apps?  #DailyUI #005 #LeadMob
+Design a user profile and be mindful of the most important data, names, imagery, placement, etc. Is it for a serious profile? A social profile? (It's up to you!)  #DailyUI #006
 
 
-![alt text](https://pbs.twimg.com/media/Eyh8NLyXIAEC_S9?format=jpg&name=large)
+![alt text](https://pbs.twimg.com/media/Eyxg5BiXIAITJXU?format=png&name=large)
