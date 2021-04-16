@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+body{
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #fff;
+}
+* {
+	box-sizing: border-box;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.grid-container-buttons{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+}
+.grid-container-buttons .play{
+	font-size: 32px;
+	margin-top: -12px;
+}
+
+.grid-container-share{
+	display: grid;
+	grid-template-columns: 100%;
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+}
+.grid-container-share2{
+	display: grid;
+	grid-template-columns: 80% 20%;
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+}
+
+.grid-container-share .compartilhar{
+	color: #333;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+.grid-container-share .compartilhar h3{
+	font-size: 12px;
+	margin: 0px;
+}
+.grid-container-share-buttons{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	text-align: center;
+	font-size: 24px;
+}
+
+.grid-container-share-buttons .fb{
+	color: #026AE3;
+}
+.grid-container-share-buttons .tw{
+	color: #1DA1F2;
+}
+.grid-container-share-buttons .ig{
+	color: #EB4C52;
+}
+.grid-container-share-buttons .wp{
+	color: #3FC252;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+/******/
+.card{
+	z-index: 9999;
+	padding: 25px;
+	display: table;
+	border: 0px solid #000;
+	background-color: #333333;
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #fff;
+}
+.card-size{
+	width: 350px;
+	height: 500px;
+}
+
+.card .imagem{
+	display: table-cell;
+	vertical-align: top;
+	border: 0px solid #fff;
+	text-align: center;
+}
+.card .imagem img{
+	width: 65%;
+}
+.card .imagem h2{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+}
+.card .range{
+	width: 100%;
+}
+.card .time{
+	font-size: 10px;
+	color: #cdcdcd;
+	margin-top: 0px;
+	float: left;
+}
+.card .falta{
+	font-size: 10px;
+	color: #cdcdcd;
+	margin-top: 0px;
+	float: right;
+}
+
+.card .slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	border-radius: 5px;  
+	background: #fff;
+	outline: none;
+	opacity: 1;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.card .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%; 
+	background: #fff;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 1px #cdcdcd;
+}
+
+.card .slider::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 0px #cdcdcd;
+}
+
+.card .slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	border-radius: 5px;  
+	background: #fff;
+	outline: none;
+	opacity: 1;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	/*transform: rotate(45deg);*/
+
+}
+
+.card .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%; 
+	background: #fff;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 1px #999;
+
+}
+
+.card .slider::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 0px #fff;
+}
+.card .slidecontainer-volume{
+	position: absolute;
+	margin-top: 45px;
+	margin-left: -55px;
+}
+
+.card .slider-volume {
+	position: relative;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	border-radius: 5px;  
+	background: #fff;
+	outline: none;
+	opacity: 1;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	margin-top: 45px;
+	transform: rotate(90deg);
+}
+
+.card .slider-volume::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%; 
+	background: #fff;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 1px #cdcdcd;
+
+}
+
+.card .slider-volume::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 0px #cdcdcd;
+}
+
