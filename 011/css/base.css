@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+body{
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #fff;
+}
+* {
+	box-sizing: border-box;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.grid-container-buttons{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+}
+.grid-container-buttons .play{
+	font-size: 32px;
+	margin-top: -12px;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+/******/
+.card{
+	z-index: 9999;
+	padding: 25px;
+	display: table;
+	border: 0px solid #000;
+	background-color: #fff;
+	border-radius: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #fff;
+}
+.card-size{
+	width: 350px;
+	height: 350px;
+}
+
+.card .icon{
+	border: 0px solid #fff;
+	text-align: center;
+	font-size: 110px;
+	width: 100%;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.card.success{
+	background-color: #51DC6B;
+	color: #fff;
+}
+
+.card.error{
+	background-color: #D23838;
+	color: #fff;
+}
+
+.card .text{
+	width: 100%;
+	text-align: center;
+}
+.card .text h2{
+	font-size: 25px;
+	margin: 0px;
+}
+.card .text p{
+	font-size: 18px;
+}
+
+.card .buttons{
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+.card .btn{
+	border: 0px;
+	width: 200px;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.card.success .btn{
+	color: #51DC6B;
+	box-shadow: 2px 2px 2px #999;
+}
+.card.error .btn{
+	color: #D23838;
+	box-shadow: 2px 2px 2px #333;
+}
