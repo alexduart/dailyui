@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+body{
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #FF4D62;
+	font-size: 12px;
+}
+* {
+	box-sizing: border-box;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.grid-container-buttons{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	text-align: center;
+	color: #FF4D62;
+}
+.grid-container-buy{
+	display: grid;
+	grid-template-columns: 100%;
+	text-align: center;
+	color: #FF4D62;
+}
+
+.grid-container-img{
+	display: table;
+	grid-template-columns: 25% 50% 25%;
+	text-align: center;
+	color: #FF4D62;
+	vertical-align: middle;
+}
+
+.grid-container-dados{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+	color: #1FB0B3;
+}
+
+.grid-container-dados p{
+	font-size: 12px;
+}
+.grid-container-dados span{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.grid-container-img .left{
+	color: #fff;
+}
+.grid-container-img .left, .grid-container-img .right{
+	border: 0px solid #000;
+	height: 150px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.grid-container-buy button{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.grid-container-buy button.buy {
+	background-color: #5885F5;
+	border: 0px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+/******/
+.card{
+	z-index: 9999;
+	padding: 25px;
+	display: table;
+	border: 0px solid #000;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #333;
+}
+.card2{
+	z-index: 99999;
+	padding: 25px;
+	display: table;
+	border: 2px solid #fff;
+	background-color: transparent;
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #000;
+	position: absolute;
+}
+.card-size{
+	width: 350px;
+	height: 650px;
+}
+
+.card .imagem{
+	display: table-cell;
+	vertical-align: top;
+	border: 0px solid #fff;
+	text-align: center;
+}
+.card .imagem img{
+	width: 80%;
+	z-index: 999;
+}
+.card h2{
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+}
+.card .range{
+	width: 100%;
+}
+.card .time{
+	font-size: 10px;
+	color: #cdcdcd;
+	margin-top: 0px;
+	float: left;
+}
+.card .falta{
+	font-size: 10px;
+	color: #cdcdcd;
+	margin-top: 0px;
+	float: right;
+}
+
+.card .favorite{
+	color: #fff;
+}
+
+.card .circle{
+	border: 0px solid #000;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: -10;
+	margin-top: -240px;
+	margin-left: -100px;
+	background-color: #FF4D62;
+}
+
+.card .slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	border-radius: 5px;  
+	background: #000;
+	outline: none;
+	opacity: 1;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.card .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%; 
+	background: #000;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 1px #cdcdcd;
+}
+
+.card .slider::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #000;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 0px #cdcdcd;
+}
+
+.card .slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	border-radius: 5px;  
+	background: #000;
+	outline: none;
+	opacity: 1;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	/*transform: rotate(45deg);*/
+
+}
+
+.card .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%; 
+	background: #000;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 1px #999;
+
+}
+
+.card .slider::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #000;
+	cursor: pointer;
+	border: 0px;
+	box-shadow: 1px 1px 0px #fff;
+}
+
+/********/
