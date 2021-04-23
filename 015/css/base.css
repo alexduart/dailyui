@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+body{
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #49E845;
+}
+* {
+	box-sizing: border-box;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.grid-container-buttons{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+}
+.grid-container-buttons .play{
+	font-size: 32px;
+	margin-top: -12px;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+/******/
+.card-{
+	display: block;
+	height: 80px;
+	text-align: right;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: #fff;
+	border-radius: 50%;
+	background: linear-gradient(145deg, #9bd449, #83b23d);
+	box-shadow:  20px 20px 60px #7ba83a,
+	-20px -20px 60px #a7e44e;
+}
+.card-on{
+	display: block;
+	height: 80px;
+	text-align: right;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: #fff;
+	border-radius: 50%;
+	background: #91C644;
+	box-shadow: inset 20px 20px 60px #7ba83a,
+	inset -20px -20px 60px #a7e44e;
+}
+.card-size{
+	width: 150px;
+	height: 150px;
+	margin: 15px;
+}
+
+.icon{
+	border: 0px solid #fff;
+	text-align: center;
+	font-size: 110px;
+	width: 100%;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.card.success{
+	background-color: #51DC6B;
+	color: #fff;
+}
+
+.card.error{
+	background-color: #D23838;
+	color: #fff;
+}
+
+.card .text{
+	width: 100%;
+	text-align: center;
+}
+.icon h2{
+	font-size: 12px;
+	margin: 0px;
+	padding: 10px 0px;
+}
+.card .text p{
+	font-size: 18px;
+}
+
+.card .buttons{
+	text-align: center;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.card .btn{
+	text-align: center;
+	padding: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	background: #3F94FF;
+	box-shadow:  20px 20px 60px #367ed9,-20px -20px 60px #48aaff;
+	border: 0px solid rgba(255, 255, 255, 0.20);
+	width: 80%;
+	font-size: 18px;
+	font-weight: bold;
+}
+.card.success .btn{
+	color: #51DC6B;
+	box-shadow: 2px 2px 2px #999;
+	font-size: 20px;
+}
+.card.error .btn{
+	color: #D23838;
+	box-shadow: 2px 2px 2px #333;
+}
+
+
+    .onoffswitch {
+        position: relative; width: 80px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        height: 36px; padding: 0; line-height: 36px;
+        border: 2px solid #49E845; border-radius: 36px;
+        background-color: #FFFFFF;
+        transition: background-color 0.3s ease-in;
+    }
+    .onoffswitch-label:before {
+        content: "";
+        display: block; width: 36px; margin: 0px;
+        background: #FFFFFF;
+        position: absolute; top: 0; bottom: 0;
+        right: 42px;
+        border: 2px solid #49E845; border-radius: 36px;
+        transition: all 0.3s ease-in 0s; 
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label {
+        background-color: #49E845;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+       border-color: #FFF;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+        right: 0px; 
+    }
