@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+body{
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #29323B;
+}
+* {
+	box-sizing: border-box;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.card{
+	width: 850px;
+	height: 610px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 25px;
+}
+.dados{
+	border-bottom: 1px solid #cdcdcd;
+	font-size: 12px;
+	padding-bottom: 15px;
+	margin-bottom: 10px 
+}
+.grid-header{
+	display: grid;
+	grid-template-columns: 80% 20%;
+}
+
+.grid-header .nome{
+	text-align: left;
+	font-size: 28px;
+}
+.grid-header .pedido{
+	text-align: right;
+}
+.grid-body{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+.grid-body .grid-detalhes{
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+.grid-body .grid-detalhes h2{
+	font-size: 18px;
+}
+.grid-body ul{
+	margin: 0px;
+	padding: 0px;
+	padding-left: 15px;
+	list-style-type: none;
+}
+.grid-body .grid-detalhes img{
+	width: 100%;
+}
+.entrega{
+	text-align: right;
+	font-size: 12px;
+}
+.ul-entrega{
+	display: block;
+	margin-top: 55px !important;
+	border: 0px solid #000;
+}
+.grid-timeline{
+	margin-top: 25px;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+	color: #999 !important;
+}
+.grid-timeline .icone{
+	font-size: 32px;
+
+}
+.ativo{
+	color: #BE4BDB !important;
+}
