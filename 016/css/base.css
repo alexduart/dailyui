@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+body{
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+* {
+	box-sizing: border-box;
+}
+.bg-image {
+	/* The image used */
+	background-image: url('../img/fundo.png');
+
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	filter: blur(8px);
+	-webkit-filter: blur(5px);
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.card{
+	width: 450px;
+	height: 530px;
+	background-color: #fff;
+	border-radius: 5px;
+	text-align: center;
+
+}
+.card h1{
+	text-align: center;
+	color: #B24040;
+	text-transform: uppercase;
+}
+.card img{
+	margin: 10% auto;
+}
+
+.btn{
+	width: 90%;
+	margin: 15px;
+	padding: 15px;
+	border: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn.btn-desconto{
+	background-color: #B24040;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Daily Ui #016</title>
+	<link rel="stylesheet" href="css/base.css?123">
+</head>
+<body>
+	<div class="bg-image"></div>
+	<div class="blur"></div>
+	<div class="container">
+		<div class="card">
+			<img src="https://flaviagrilohome.com.br/wp-content/uploads/2017/08/form-couro-600x563.jpg" alt="" width="60%">
+			<h1>Descontos Exclusivos</h1>
+			<button class="btn btn-desconto">Eu quero</button>
+		</div>
+	</div>
+	<script src="https://www.datamobile.com.br/ecospa/js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(e) {
+			$('input.input-material').on('focus', function () {
+				$(this).siblings('.label-material').addClass('active');
+			});
+
+			$('input.input-material').on('blur', function () {
+				$(this).siblings('.label-material').removeClass('active');
+
+				if ($(this).val() !== '') {
+					$(this).siblings('.label-material').addClass('active');
+				} else {
+					$(this).siblings('.label-material').removeClass('active');
+				}
+			});
+		});
+	</script>
+</body>
+</html>
